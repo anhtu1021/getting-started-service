@@ -1,4 +1,4 @@
-FROM openjdk:11
+FROM openjdk:11 as test
 WORKDIR /app
 
 COPY .mvn/ .mvn
