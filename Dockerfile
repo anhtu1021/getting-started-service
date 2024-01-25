@@ -1,3 +1,3 @@
 FROM openjdk:11
-COPY /getting-started-service/target/getting-started-service-0.0.1-SNAPSHOT.jar app.jar
+COPY /home/runner/work/getting-started-service/getting-started-service/target/getting-started-service-0.0.1-SNAPSHOT.jar app.jar
 ENTRYPOINT ["java","-jar","/app.jar"]
